@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width", initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="movie.css">
+    <title>kinopoisk</title>
+    <link rel="icon" type="image/x-icon" href="Logo.png">
+    <meta property="og:image" content="poster.png"/>
+    <meta property="og:title" content="Кинопоиск"/>
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <img src="poster.png" alt="poster">
+        </div>
+        <nav>
+            <div class="logo">
+                <img src="Logo.png" alt="Logo">
+                <h1>Movie</h1>
+            </div>
+          
+        <div class="boxContainer">
+            <table class="elementsContainer">
+    
+                <tr>
+                    <td>
+                        <input type="text" placeholder="Что посмотрим сегодня?" class="search">
+                    </td>
+                    <td>
+                        <a href="#">
+                            <i class='bx bx-search-alt-2'></i>
+                        </a>
+                    </td>
+                </tr>
+    
+            </table>
+            
+        </div>
+          
+            <div class="exit-menu">
+                <h2>Выход</h2>
+                <img src="Menu.png" alt="Menu">
+            </div>
+        </nav>
+        
+        <div class="movie-details">
+                <h3>Все везде и сразу</h3>
+                <div class="ratings">
+                    <div class=" IMDb">
+                        <img src="imbd.png" alt="IMDb">
+                        <p>86.0 / 100</p>
+                    </div>
+                
+                    <div class="kinopoisk">
+                        <img src="Kinopoisk.png" alt="Kinopoisk">
+                        <p>97%</p>
+                    </div> 
+                </div>
+                <p>Судьба мультивселенной — в руках владелицы прачечной. Лучший фильм, режиссер и еще пять «Оскаров»</p>
+                <button class="treller"> 
+                    <img src="Play.png" alt="Play" >
+                    <h4>Трейлер</h4>
+                </button>
+
+
+            
+        </div>
+    </header>
+    <section class="movie">
+       
+        <div class="row">
+            <div class="title">
+                <h5>Фильмы</h5>
+            </div>
+            <div class="show-more">
+            <a class="see-more__button" href="#">Больше фильмов</a>
+            <img src="more-right.png" alt="more movie">
+            </div>
+        </div>
+        
+
+        <div class="pre-btn"><img src="Chevron left (2).png" alt="left"></div>
+        <div class="next-btn"><img src="Chevron right (3).png" alt="right"></div>
+
+        <div class="movie-container">
+            <div class="movie-card">
+
+                <div class="movie-imagine">
+                        <span class="favorite-icon">
+                        <img src="Favorite.png" alt="like">
+                    </span>
+                    <img src="Green_Mile.png" alt="Зеленая миля" class="movie-thumb">
+                </div>
+                <div class="movie-info">
+                    <div class="country">США, 1999</div>
+                    <div class="movie-name">Зеленая миля</div>
+                    <div  class="movie-statistic" >
+                        <div class="st-mbti">
+                            <img src="imbd.png" alt="">
+                            <p>86.0 / 100</p>
+                        </div>
+                        <div class="st-k">
+                            <img src="Kinopoisk.png" alt="">
+                            <p>97%</p>
+                        </div>
+                    </div>
+                    <div class="movie-genre">
+                         драма, фэнтэзи, криминал</div>
+                   
+                </div>
+            </div>
+
+
+
+            <div class="movie-card">
+                <div class="movie-imagine">
+                    <span class="favorite-icon">
+                        <img src="Favorite.png" alt="like">
+                    </span>
+                    <img src="Barbie.png" alt="Барби" class="movie-thumb">
+                </div>
+                <div class="movie-info">
+                    <div class="country">США, Великобритания, 2023</div>
+                    <div class="movie-name">Барби</div>
+                    <div  class="movie-statistic" >
+                        <div class="st-mbti">
+                            <img src="imbd.png" alt="">
+                            <p>84.0 / 100</p>
+                        </div>
+                        <div class="st-k">
+                            <img src="Kinopoisk.png" alt="">
+                            <p>87%</p>
+                        </div>
+                    </div>
+                    <div class="movie-genre">
+                        комедия, приключения, фэнтэзи</div>
+                   
+                </div>
+            </div>
+        
+           
+
+            <div class="movie-card">
+                <div class="movie-imagine">
+                    <span class="favorite-icon">
+                        <img src="Favorite.png" alt="like">
+                    </span>
+                    <img src="Oppenheimer.png" alt="Оппенгеймер" class="movie-thumb">
+                </div>
+                <div class="movie-info">
+                    <div class="country">США, Великобритания, 2023</div>
+                    <div class="movie-name">Оппенгеймер</div>
+                    <div  class="movie-statistic" >
+                        <div class="st-mbti">
+                            <img src="imbd.png" alt="">
+                            <p>82.0 / 100</p>
+                        </div>
+                        <div class="st-k">
+                            <img src="Kinopoisk.png" alt="">
+                            <p>70%</p>
+                        </div>
+                    </div>
+                    <div class="movie-genre">
+                        биография, драма, история</div>
+                   
+                </div>
+            </div>
+        
+         
+        
+            <div class="movie-card">
+                <div class="movie-imagine">
+                    <span class="favorite-icon">
+                        <img src="Favorite.png" alt="like">
+                    </span>
+                    <img src="Miraculous.png" alt="Леди Баг и Супер-Кот: Пробуждение силы" class="movie-thumb">
+                </div>
+                <div class="movie-info">
+                    <div class="country">Франция, 2023</div>
+                    <div class="movie-name">Леди Баг и Супер-Кот: Пробуждение силы</div>
+                    <div  class="movie-statistic" >
+                        <div class="st-mbti">
+                            <img src="imbd.png" alt="">
+                            <p>78.0 / 100</p>
+                        </div>
+                        <div class="st-k">
+                            <img src="Kinopoisk.png" alt="">
+                            <p>94%</p>
+                        </div>
+                    </div>
+                    <div class="movie-genre">
+                        мультфильм, семейный, детский...</div>
+                   
+                </div>
+            </div>
+        
+    </section>
+
+    
+    
+
+
+
+    <section class="movie">
+        <div class="row">
+            <div class="title">
+                <h5>Сериалы</h5>
+            </div>
+            <div class="show-more">
+            <a class="see-more__button" href="#">Больше сериалов</a>
+            <img src="more-right.png" alt="more-series">
+            </div>
+        </div>
+        <div class="pre-btn"><img src="Chevron left (2).png" alt=""></div>
+        <div class="next-btn"><img src="Chevron right (3).png"></div>
+        <div class="movie-container">
+            <div class="movie-card">
+
+                <div class="movie-imagine">
+                        <span class="favorite-icon">
+                        <img src="Favorite.png" alt="Йеллоустоун">
+                    </span>
+                    <img src="Yellowstone.png" alt="" class="movie-thumb">
+                </div>
+                <div class="movie-info">
+                    <div class="country">США, 2016 - ...</div>
+                    <div class="movie-name">Йеллоустоун</div>
+                    <div  class="movie-statistic" >
+                        <div class="st-mbti">
+                            <img src="imbd.png" alt="">
+                            <p>84.0 / 100</p>
+                        </div>
+                        <div class="st-k">
+                            <img src="Kinopoisk.png" alt="">
+                            <p>75%</p>
+                        </div>
+                    </div>
+                    <div class="movie-genre">
+                         драма, вестерн</div>
+                   
+                </div>
+            </div>
+
+
+
+            <div class="movie-card">
+                <div class="movie-imagine">
+                    <span class="favorite-icon">
+                        <img src="Favorite.png" alt="like">
+                    </span>
+                    <img src="father-daughers.png" alt="Папины дочки" class="movie-thumb">
+                </div>
+                <div class="movie-info">
+                    <div class="country">Россия, 2007-2013</div>
+                    <div class="movie-name">Папины дочки</div>
+                    <div  class="movie-statistic" >
+                        <div class="st-mbti">
+                            <img src="imbd.png" alt="">
+                            <p>76.0 / 100</p>
+                        </div>
+                        <div class="st-k">
+                            <img src="Kinopoisk.png" alt="">
+                            <p>68%</p>
+                        </div>
+                    </div>
+                    <div class="movie-genre">
+                        комедия, семейный</div>
+                   
+                </div>
+            </div>
+        
+           
+
+            <div class="movie-card">
+                <div class="movie-imagine">
+                    <span class="favorite-icon">
+                        <img src="Favorite.png" alt="like">
+                    </span>
+                    <img src="attack-on-titan.png" alt="Аттака титанов" class="movie-thumb">
+                </div>
+                <div class="movie-info">
+                    <div class="country">Япония, 2013 - ...</div>
+                    <div class="movie-name">Аттака титанов</div>
+                    <div  class="movie-statistic" >
+                        <div class="st-mbti">
+                            <img src="imbd.png" alt="">
+                            <p>79.0 / 100</p>
+                        </div>
+                        <div class="st-k">
+                            <img src="Kinopoisk.png" alt="">
+                            <p>71%</p>
+                        </div>
+                    </div>
+                    <div class="movie-genre">
+                        аниме, мультфиль, фантастика...</div>
+                   
+                </div>
+            </div>
+        
+         
+        
+            <div class="movie-card">
+                <div class="movie-imagine">
+                    <span class="favorite-icon">
+                        <img src="Favorite.png" alt="like">
+                    </span>
+                    <img src="parks-and-rec.png" alt="Парк и зоны отдыха" class="movie-thumb">
+                </div>
+                <div class="movie-info">
+                    <div class="country">США, 2009-2015</div>
+                    <div class="movie-name">Парк и зоны отдыха</div>
+                    <div  class="movie-statistic" >
+                        <div class="st-mbti">
+                            <img src="imbd.png" alt="">
+                            <p>61.0 / 100</p>
+                        </div>
+                        <div class="st-k">
+                            <img src="Kinopoisk.png" alt="">
+                            <p>46%</p>
+                        </div>
+                    </div>
+                    <div class="movie-genre">
+                        комедия</div>
+                   
+                </div>
+            </div>
+        
+    </section>
+    <section class="movie">
+        <div class="row">
+            <div class="title">
+                <h5>Мультфильмы</h5>
+            </div>
+            <div class="show-more">
+            <a class="see-more__button" href="#">Больше мультфильмов</a>
+            <img src="more-right.png" alt="">
+            </div>
+        </div>
+        <div class="pre-btn"><img src="Chevron left (2).png" alt="left"></div>
+        <div class="next-btn"><img src="Chevron right (3).png" alt="right"></div>
+        <div class="movie-container">
+            <div class="movie-card">
+
+                <div class="movie-imagine">
+                        <span class="favorite-icon">
+                        <img src="Favorite.png" alt="">
+                    </span>
+                    <img src="shrek.png" alt="" class="movie-thumb">
+                </div>
+                <div class="movie-info">
+                    <div class="country">США, 2001</div>
+                    <div class="movie-name">шрэк</div>
+                    <div  class="movie-statistic" >
+                        <div class="st-mbti">
+                            <img src="imbd.png" alt="">
+                            <p>84.0 / 100</p>
+                        </div>
+                        <div class="st-k">
+                            <img src="Kinopoisk.png" alt="">
+                            <p>75%</p>
+                        </div>
+                    </div>
+                    <div class="movie-genre">
+                         мультфильм, фантастика, комедия...</div>
+                   
+                </div>
+            </div>
+
+
+
+            <div class="movie-card">
+                <div class="movie-imagine">
+                    <span class="favorite-icon">
+                        <img src="Favorite.png" alt="like">
+                    </span>
+                    <img src="masha.png" alt="Маша и медведь" class="movie-thumb">
+                </div>
+                <div class="movie-info">
+                    <div class="country">Россия, 2009 - ...</div>
+                    <div class="movie-name">Маша и медведь</div>
+                    <div  class="movie-statistic" >
+                        <div class="st-mbti">
+                            <img src="imbd.png" alt="">
+                            <p>76.0 / 100</p>
+                        </div>
+                        <div class="st-k">
+                            <img src="Kinopoisk.png" alt="">
+                            <p>68%</p>
+                        </div>
+                    </div>
+                    <div class="movie-genre">
+                        мультфильм, комедия</div>
+                   
+                </div>
+            </div>
+        
+           
+
+            <div class="movie-card">
+                <div class="movie-imagine">
+                    <span class="favorite-icon">
+                        <img src="Favorite.png" alt="like">
+                    </span>
+                    <img src="soul.png" alt="Душа" class="movie-thumb">
+                </div>
+                <div class="movie-info">
+                    <div class="country">США, Япония, 2020</div>
+                    <div class="movie-name">Душа</div>
+                    <div  class="movie-statistic" >
+                        <div class="st-mbti">
+                            <img src="imbd.png" alt="">
+                            <p>79.0 / 100</p>
+                        </div>
+                        <div class="st-k">
+                            <img src="Kinopoisk.png" alt="">
+                            <p>71%</p>
+                        </div>
+                    </div>
+                    <div class="movie-genre">
+                        мультфильм, драма, приключения...</div>
+                   
+                </div>
+            </div>
+        
+         
+        
+            <div class="movie-card">
+                <div class="movie-imagine">
+                    <span class="favorite-icon">
+                        <img src="Favorite.png" alt="like">
+                    </span>
+                    <img src="red-shoes.png" alt="Красные туфельки и семь гномов" class="movie-thumb">
+                </div>
+                <div class="movie-info">
+                    <div class="country">Корея Южная, 2019</div>
+                    <div class="movie-name">Красные туфельки и семь гномов</div>
+                    <div  class="movie-statistic" >
+                        <div class="st-mbti">
+                            <img src="imbd.png" alt="">
+                            <p>61.0 / 100</p>
+                        </div>
+                        <div class="st-k">
+                            <img src="Kinopoisk.png" alt="">
+                            <p>46%</p>
+                        </div>
+                    </div>
+                    <div class="movie-genre">
+                        мультфильм, фэнтези, комедия...</div>
+                   
+                </div>
+            </div>
+        
+    </section>
+
+    
+    <section class="movie">
+        <div class="row">
+            <div class="title">
+                <h5>Люди в кино</h5>
+            </div>
+            <div class="show-more">
+            <a class="see-more__button" href="#">Больше фильмов</a>
+            <img src="more-right.png" alt="more movie">
+            </div>
+        </div>
+        <div class="pre-btn"><img src="Chevron left (2).png" alt="left"></div>
+        <div class="next-btn"><img src="Chevron right (3).png" alt="right"></div>
+        <div class="movie-container">
+            <div class="movie-card">
+                <div class="movie-imagine">    
+                    <img src="alexander-bashirov.png" alt="Александр Баширова" class="movie-thumb">
+                </div>
+                <div class="movie-info"> 
+                    <div class="movie-name">Александр Баширова</div>
+                </div>
+            </div>
+
+
+            <div class="movie-card">
+                <div class="movie-imagine">
+                    <img src="bret-pitt.png" alt="Брэд Питт" class="movie-thumb">
+                </div>
+                <div class="movie-info">
+                    <div class="movie-name">Брэд Питт</div>   
+                </div>
+            </div>
+        
+
+
+            <div class="movie-card">
+                <div class="movie-imagine">
+                    <img src="kventin-tarantino.png" alt="Квентин Тарантино" class="movie-thumb">
+                </div>
+                <div class="movie-info"> 
+                    <div class="movie-name">Квентин Тарантино</div> 
+                </div>
+            </div>
+        
+           
+
+           
+         
+        
+            <div class="movie-card">
+                <div class="movie-imagine">
+                    
+                    <img src="alexander-petrov.png" alt="Александр Петров" class="movie-thumb">
+                </div>
+                <div class="movie-info">
+                    
+                    <div class="movie-name">Александр Петров</div>
+                    
+                    
+                   
+                </div>
+            </div>
+        
+    </section>
+    
+    <footer>
+        <div class="contacts">
+            <i class='bx bxl-vk' ></i>
+            <i class='bx bxl-youtube'></i>
+            <i class='bx bxl-telegram' ></i>
+    
+        </div>
+        <div class="facts">
+            <p>Условия использования</p>
+            <p>Политика конфиденциальности</p>
+            <p>Для прессы</p>
+        </div>
+        
+        <p><font color="#9CA3AF">© 2023 Xpage</font></p>
+
+        
+    </footer>
+    
+    
+    
+
+</body>
+</html>
