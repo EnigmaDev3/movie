@@ -1,0 +1,412 @@
+body{
+    margin: 0px;
+}
+header{
+   
+    color: white;
+    
+}
+.banner img{
+    top: 0;
+    z-index: -1;
+   
+    min-width: 100%;
+    min-height: auto;
+    position: absolute;
+    background-size: cover;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; 
+   /* padding: 0 55px; */
+}
+
+
+.logo, .search-form, .exit-menu {
+    display: flex;
+    align-items: center;
+}
+.exit-menu {
+    display: flex;
+    align-items: center;
+    
+    margin-right: -130px;
+    
+}
+
+.logo img {
+    margin-right: 25px;
+}
+.exit-menu h2 {
+    margin-right: 25px; 
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.logo {
+    height: 100%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    align-items: center;
+    padding-left:  10vw;
+    
+    
+}
+
+.logo h1{
+    font-size: 24px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.boxContainer{
+    
+    position: relative;
+    width: 525px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 0px 10px;
+    
+   
+}
+.elementsContainer{
+  
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+.search{
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 100%;
+    padding: 0px 5px;
+    border-radius: 50px;
+    font-size: 18px;
+    color: white;
+    background-color: transparent;
+}
+.boxContainer i {
+    font-size: 25px;
+    color: white;
+    outline: none;
+    margin-right: -15px;
+}
+
+.search::placeholder {
+    color: white;
+}
+header .movie-details{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 10vw;
+    width: 305px;
+        margin-bottom: 150px;
+
+    
+}
+
+.movie-details h3{
+    font-size: 49px;
+    font-weight: 700;
+
+}
+
+/*rating*/
+.ratings {
+    display: flex; 
+    align-items: center;
+}
+
+.IMDb, .kinopoisk {
+    display: flex;
+    align-items: center;
+    margin-right: 50px; 
+    
+}
+.IMDb img{
+    margin-right: 20px;
+}
+.kinopoisk img{
+    margin-right: 20px;
+}
+
+
+
+
+.movie-info{
+    width: 100%;
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+.treller{
+    background-color:#4338CA ;
+    width: 124px;
+    height: 36px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+
+
+}
+
+.treller img{
+    color: white;
+}
+
+
+
+.movie {
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+
+}
+
+.movie-category{
+    padding: 0 10vw;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+
+}
+
+.movie-container {
+    padding: 0 10vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+.movie-card{
+    flex: 0 0 auto;
+    margin-right: 40px;
+    max-width: 250px;
+    
+}
+
+
+.movie-imagine{
+    position: relative;
+  
+    overflow-x: hidden;
+    margin-bottom: 12px;
+}
+
+.movie-thumb{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.favorite-icon {
+    position: absolute;
+    top: 10px; /* Adjust this value to move the icon up or down */
+    right: 10px; /* Adjust this value to move the icon left or right */
+}
+
+.movie-container::-webkit-scrollbar{
+    display: none;
+}
+
+.movie-info{
+width: 100%;
+height: 100%;
+
+
+}
+
+  
+
+  
+.pre-btn, .next-btn {
+   position: absolute;
+   top: 48%; 
+    transform: translateY(5%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 9;
+}
+
+.pre-btn{
+    left: 0;
+
+}
+
+.next-btn{
+    right: 0;
+}
+
+
+
+
+
+
+.collection-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: (repeat(2, 1fr));
+
+}
+
+.collection{
+    position: relative;
+}
+
+
+.collection img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+.movie-statistic {
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+
+
+.movie-statistic  p {
+    
+    font-size: 12px;
+    font-family: 'DM Sans', sans-serif;
+    color:  #111827;
+    font-weight: 400;
+    
+}
+.st-mbti, .st-k {
+    display: flex;
+    align-items: center;
+   
+}
+
+
+
+
+.st-k {
+    margin-left: auto; /* Перемещаем .st-k вправо */
+}
+
+.st-mbti img{
+    margin-right: 12px;
+   
+ }
+ 
+ .st-k img{
+     margin-right: 12px;
+     
+  }
+.movie-name{
+    
+    color: black;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.country, .movie-genre{
+    color: #9CA3AF;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+.collection:nth-child(3){
+    grid-column: span 2;
+    margin-bottom: 10px;
+}
+
+
+
+footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contacts i {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #000; 
+    margin-bottom: 30px;
+}
+
+.facts{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.facts {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.facts p {
+    margin: 0 10px; /* Расстояние между элементами, например, 10px */
+}
+.show-more {
+    display: inline-block;
+}
+
+.see-more__button, .show-more img {
+    vertical-align: middle;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 400;
+}
+.row {
+    display: flex;
+    justify-content: space-between; /* Если вы хотите, чтобы элементы были выровнены с обоих сторон */
+    align-items: center;
+    padding: 0 10vw;
+}
+.title{
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+  
+    font-family: 'DM Sans', sans-serif;
+}
